@@ -1,0 +1,16 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.content{
+    color: #fff;
+    background: #000;
+    width: 100%;
+    height: 100vh;
+}
+
+.bg{
+    background: url("../img/bg3.png") no-repeat center center;
+    background-size: cover;
+}

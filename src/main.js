@@ -2,6 +2,10 @@ import Vue from 'vue'
 import App from './App.vue'
 import router from './router'
 import store from './store'
+import datav from '@jiaminghi/data-view'  // 全局引入
+import './assets/css/main.css'  // 全局导入css
+
+Vue.use(datav)
 
 Vue.config.productionTip = false
 
