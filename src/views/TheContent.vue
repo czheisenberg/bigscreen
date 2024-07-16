@@ -3,7 +3,7 @@
     <!-- 左 -->
     <div style="flex:0 1 25%">
       <dv-border-box-13 style="width: 100%; height: 300px;">
-        <TheCapsuleChart :dataChart="dataChart" :colorsChart="colorsChart"/>
+        <TheCapsuleChart :dataChart="dataChart"/>
       </dv-border-box-13>
       <dv-border-box-10 style="width: 100%; height: 300px;">
         <TheWaterLevelPond/>
